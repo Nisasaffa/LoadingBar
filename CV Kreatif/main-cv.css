@@ -1,0 +1,66 @@
+.navbar{
+ background:#459db7;
+}
+.nav-link , .navbar-brand{
+ color: #0d0e0f;
+ cursor: pointer;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+/*header style*/
+.header{
+ background-image: url('Blue.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(144, 144, 144, 0.29);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    color: #015568;
+    font-weight: bold;
+}
+.description p{
+position: fixed;
+ color:#FF007F;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+ font-weight: bold;
+}
+.contact-form{
+  font-size: 20px;
+  border: 5px #0fa3c4 solid;
+  border-radius: 50;
+  border-width: thick;
+  border-color: #0fa3c4;
+  margin: 10px 10px 10px 10px;
+  padding : 20px 20px 20px 20px;
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #015568;
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #015568;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
